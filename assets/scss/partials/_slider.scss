@@ -1,0 +1,42 @@
+#slider {
+	
+		width:100%;
+	.container-fluid {
+		height: 750px;
+		background-image: url(../../images/slider.png);
+		background-position: center;
+		background-size: cover;
+		color: white;
+		font-family: 'Raleway';
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 30px;
+		.container{
+			position: relative;
+			h1 {
+				font-size: 48px;
+				font-weight: bold;
+				margin-top: 353px;
+			}
+			p {
+				font-size: 14px;
+				margin-top: 20px;
+			}
+			ul {
+				position:absolute;
+				top:691px;
+				left:550px;
+				li {
+					a {
+						color:rgba(255, 255, 255, 0.3);
+						width: 16px;
+						height: 16px;
+						.active {
+							color: #ffffff !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}

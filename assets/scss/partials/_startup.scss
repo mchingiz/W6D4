@@ -1,0 +1,58 @@
+#startup {
+	.container {
+		margin-top: 100px;
+		line-height: 24px;
+		.col-md-7 {
+				padding-left:0px;
+			h1 {
+				@include sectionh1;
+			}
+			h3 {
+				@include sectionh3;
+			}
+			p {
+				margin-top: 40px;
+				font-size: 14px;
+				color: $pColor;
+			}
+			img {
+				margin-top: 59px;
+				margin-bottom:-7px;
+				width: 585px;
+				height: 301px;
+				background-color: #8d8d8d;
+			}
+		}
+		.col-md-5 {
+			.row {
+				position: relative;
+				margin-bottom:50px;
+				i {
+					position: absolute;
+					top:0;
+					left:0;
+					line-height: 66px;
+					font-size:35px;
+					text-align: center;
+					width: 67px;
+					height: 67px;
+					background-color: $thirdColor;
+					transition-duration: 0.2s;
+					&:hover {
+						background-color: $secondaryColor;
+						color:white;
+					}
+				}
+				h3 {
+					margin-left: 99px;
+					font: 700 20px / 24px 'Raleway';
+				}
+				p {
+					margin-left: 99px;
+					margi-top:12px;
+					font: 400 14px / 24px 'Karla';
+				}
+			}
+		}
+	}
+}
