@@ -616,11 +616,11 @@ body {
     font-size: 50px;
     background-color: transparent;
     border: none; }
-  #slider2 .container-fluid #left {
+  #slider2 .container-fluid .left {
     top: 300px;
     left: 40px;
     float: left; }
-  #slider2 .container-fluid #right {
+  #slider2 .container-fluid .right {
     top: 300px;
     right: 40px;
     float: right; }
@@ -803,7 +803,8 @@ body {
 #clients2 .container-fluid {
   background-color: #f7941d; }
   #clients2 .container-fluid .container {
-    padding: 100px 15px; }
+    padding: 100px 15px;
+    position: relative; }
     #clients2 .container-fluid .container .clientsHeader {
       paddig: 0; }
       #clients2 .container-fluid .container .clientsHeader > h1 {
@@ -824,7 +825,7 @@ body {
         padding: 15px;
         margin-top: 15px; }
     #clients2 .container-fluid .container .quote {
-      padding: 11px 0 0 0;
+      padding: 11px 50px 0 50px;
       text-align: center;
       color: #000; }
       #clients2 .container-fluid .container .quote .fa-quote-left {
@@ -837,11 +838,14 @@ body {
       #clients2 .container-fluid .container .quote h2 {
         text-transform: uppercase;
         font: 700 14px / 20px 'Karla';
-        color: #23282f;
-        margin-top: 40px; }
-        #clients2 .container-fluid .container .quote h2 span {
-          font-weight: 400;
-          display: block; }
+        color: #23282f; }
+      #clients2 .container-fluid .container .quote span {
+        font-weight: 400;
+        display: block;
+        margin-top: 40px;
+        text-transform: uppercase;
+        font: 700 14px / 20px 'Karla';
+        color: #23282f; }
     #clients2 .container-fluid .container .hexagons div {
       width: 220px;
       display: flex;
